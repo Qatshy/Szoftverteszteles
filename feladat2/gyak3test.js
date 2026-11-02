@@ -30,3 +30,8 @@ QUnit.test("100-900", function(assert) {
     let result = numberConverter(456)
     assert.strictEqual(result, "CDLVI", "456 -ra CDLVI");
 });
+//7
+QUnit.test("1000-3000", function(assert) {
+    let result = numberConverter(2134)
+    assert.strictEqual(result, "MMCXXXIV", "2134 -re MMCXXXIV");
+});
