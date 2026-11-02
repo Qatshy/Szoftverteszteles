@@ -15,4 +15,9 @@ QUnit.test("tört", function(assert) {
     let result = numberConverter(1.1)
     assert.strictEqual(result, 1, "1.1 re 1-es hibakód");
 });
+//4
+QUnit.test("3999 fölött", function(assert) {
+    let result = numberConverter(4000)
+    assert.strictEqual(result, 1, "4000 re 1-es hibakód");
+});
 
