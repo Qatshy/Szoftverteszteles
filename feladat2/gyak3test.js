@@ -20,4 +20,10 @@ QUnit.test("3999 fölött", function(assert) {
     let result = numberConverter(4000)
     assert.strictEqual(result, 1, "4000 re 1-es hibakód");
 });
+//5
+QUnit.test("1-9", function(assert) {
+    let result = numberConverter(5)
+    assert.strictEqual(result, "V", "5-re V");
+});
+
 
