@@ -25,5 +25,8 @@ QUnit.test("1-9", function(assert) {
     let result = numberConverter(5)
     assert.strictEqual(result, "V", "5-re V");
 });
-
-
+//6
+QUnit.test("100-900", function(assert) {
+    let result = numberConverter(456)
+    assert.strictEqual(result, "CDLVI", "456 -ra CDLVI");
+});
